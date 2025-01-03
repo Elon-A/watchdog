@@ -1,0 +1,36 @@
+lib/
+├── main.dart             // Entry point of your app
+├── app.dart              // Your main app widget (MaterialApp)
+├── views/                // Screens/Views (UI)
+│   ├── home_screen.dart
+│   ├── auth_screen.dart
+│   ├── survey/           // Sub-folder for survey related screens
+│   │   ├── create_survey_screen.dart
+│   │   ├── survey_details_screen.dart
+│   │   └── ...
+│   ├── marketplace/      // Sub-folder for marketplace screens
+│   │   ├── marketplace_screen.dart
+│   │   ├── listing_details_screen.dart
+│   │   └── ...
+│   └── ...
+├── models/               // Data models (Dart classes)
+│   ├── user.dart
+│   ├── survey.dart
+│   ├── question.dart
+│   └── ...
+├── services/             // API calls, data fetching, business logic
+│   ├── auth_service.dart
+│   ├── survey_service.dart
+│   ├── marketplace_service.dart
+│   └── ...
+├── widgets/              // Reusable UI components
+│   ├── custom_button.dart
+│   ├── loading_indicator.dart
+│   └── ...
+├── utils/                // Helper functions, constants, extensions
+│   ├── constants.dart
+│   ├── theme.dart
+│   └── ...
+└── providers/            // State management providers (if using Provider)
+    ├── auth_provider.dart
+    └── survey_provider.dart
